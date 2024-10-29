@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Khot - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+            color: #333;
+            overflow-y: scroll;
+            cursor: none; /* Hide the default cursor */
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #2E8B57;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Dot following cursor */
+        .cursor-dot {
+            width: 20px;
+            height: 20px;
+            background-color: #4CAF50; /* Green color */
+            border-radius: 50%;
+            position: fixed;
+            pointer-events: none; /* Ensure dot does not interfere with mouse events */
+            z-index: 9999; /* Ensure dot appears above other elements */
+            animation: moveDot 0.1s linear infinite;
+            opacity: 0.7;
+        }
+
+        @keyframes moveDot {
+            50% {
+                transform: scale(0.8);
+            }
+        }
+
+        /* Contact Section */
+        .contact-section {
+            margin-top: 40px;
+        }
+
+        .contact-section h2 {
+            color: #4CAF50;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .contact-info p {
+            margin: 0;
+            padding-right: 10px;
+        }
+
+        /* Projects Section */
+        .projects-section {
+            margin-top: 40px;
+        }
+
+        .project {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .project h3 {
+            color: #4CAF50;
+        }
+
+        .project p {
+            margin-top: 0;
+        }
+
+        .project img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+        /* Skills Section */
+        .skills-section {
+            margin-top: 40px;
+        }
+
+        .skills-section h2 {
+            color: #4CAF50;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .skill {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 8px 12px;
+            border-radius: 20px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Abhishek Khot</h1>
+        <p>Software Developer | Machine Learning Enthusiast</p>
+    </header>
+
+    <div class="container">
+        <div class="contact-section">
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+                <p>Email:</p>
+                <a href="mailto:your-email@example.com">your-email@example.com</a>
+            </div>
+            <div class="contact-info">
+                <p>LinkedIn:</p>
+                <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">LinkedIn Profile</a>
+            </div>
+        </div>
+
+        <div class="projects-section">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project Title</h3>
+                <p>Description of the project goes here. You can provide details about your role, technologies used, and
+                    any outcomes or achievements.</p>
+                <img src="project_image.jpg" alt="Project Image">
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+
+        <div class="skills-section">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="skill">Data Structures</div>
+                <div class="skill">Algorithms</div>
+                <div class="skill">Object-Oriented Programming</div>
+                <div class="skill">Machine Learning</div>
+                <div class="skill">Web Development</div>
+                <div class="skill">Database Management</div>
+                <div class="skill">Version Control (Git)</div>
+                <div class="skill">Linux</div>
+                <div class="skill">Problem Solving</div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Abhishek Khot - Portfolio</p>
+    </footer>
+
+    <!-- Dot following cursor -->
+    <div class="cursor-dot"></div>
+
+    <script>
+        // JavaScript for cursor dot
+        document.addEventListener('mousemove', function (e) {
+            var dot = document.querySelector('.cursor-dot');
+            dot.style.top = e.pageY + 'px';
+            dot.style.left = e.pageX + 'px';
+        });
+    </script>
+
+</body>
+
+</html>
