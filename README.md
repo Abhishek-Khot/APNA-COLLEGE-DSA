@@ -7,7 +7,7 @@ Welcome to my Java Practice Questions repository! Here, I store my solutions to 
 
 -Questions Solved
 
--Getting Started
+-Getting Started /
 -Languages Used
 -How to Contribute
 -Contact
