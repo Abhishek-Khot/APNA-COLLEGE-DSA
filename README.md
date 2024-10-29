@@ -3,7 +3,7 @@
 Welcome to my Java Practice Questions repository! Here, I store my solutions to various Java coding questions from the Data Structures and Algorithms (DSA) course of Apna College. These questions help me strengthen my problem-solving skills and understanding of core concepts in Java.
 
 📋 **Table of Contents**
--About the Repository
+*About the Repository
 
 -Questions Solved
 
