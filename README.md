@@ -2,7 +2,7 @@
 # Java Practice Questions Repository
 Welcome to my Java Practice Questions repository! Here, I store my solutions to various Java coding questions from the Data Structures and Algorithms (DSA) course of Apna College. These questions help me strengthen my problem-solving skills and understanding of core concepts in Java.
 
-📋 ##Table of Contents##
+📋 **Table of Contents**
 -About the Repository
 
 -Questions Solved
@@ -15,7 +15,7 @@ Welcome to my Java Practice Questions repository! Here, I store my solutions to 
 
 -Contact
 
-📘 ##About the Repository##
+📘 **About the Repository**
 -This repository includes Java solutions to problems I’ve practiced as part of the DSA course. My primary focus areas include:
 
 -Data Structures: Arrays, ArrayList, Linked Lists, Trees, Graphs, Stacks, Queues, Deque,
@@ -26,7 +26,7 @@ Welcome to my Java Practice Questions repository! Here, I store my solutions to 
 
 -Each solution file includes comments explaining the logic used, edge cases handled
 
-✅ ##Questions Solved##
+✅ **Questions Solved**
 -Below are some topics covered along with example questions solved in each:
 
 -Arrays: Finding duplicate elements, maximum subarray sum, etc.
@@ -41,7 +41,7 @@ Dynamic Programming: Solving knapsack problems, Fibonacci series, etc.
 
 Check out individual folders for solutions grouped by topic or platform.
 
-🚀 ##Getting Started##
+🚀 **Getting Started**
 To clone this repository and run the code locally:
 
 Copy code
@@ -52,10 +52,10 @@ cd Java-Practice-Questions
 
 Then, navigate to any specific folder and run the .java files using your Java IDE or compiler.
 
-💻 ##Languages Used##
+💻 **Languages Used**
 Java - All solutions are written in Java for consistency and to make the best use of Java’s built-in libraries.
 
-🤝 ##How to Contribute##
+🤝 **How to Contribute**
 If you would like to contribute to this repository:
 
 Fork the repository.
@@ -64,7 +64,7 @@ Make your changes (e.g., add solutions, improve code efficiency, add comments).
 
 Submit a pull request.
 
-📬 ##Contact##
+📬 **Contact**
 If you have any questions or suggestions, feel free to reach out:
 
 Name: Abhishek Raju Khot
