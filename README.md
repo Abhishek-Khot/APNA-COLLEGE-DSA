@@ -4,7 +4,9 @@ Welcome to my Java Practice Questions repository! Here, I store my solutions to 
 
 📋 **Table of Contents**
 -About the Repository
+
 -Questions Solved
+
 -Getting Started
 -Languages Used
 -How to Contribute
